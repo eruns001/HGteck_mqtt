@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/constraintLayout_item"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="@dimen/logItemHeight"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/log_view_item">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/ch"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="1ch"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="9"/>
+        <TextView
+            android:id="@+id/value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="36°C"
+            android:textSize="20dp"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="12"/>
+        <ImageButton
+            android:id="@+id/button_log"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/icon_log"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="@color/sideSelected"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/button_correction"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/icon_correction"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="@color/sideSelected"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

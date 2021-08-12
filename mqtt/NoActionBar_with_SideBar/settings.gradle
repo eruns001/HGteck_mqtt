@@ -1,0 +1,2 @@
+rootProject.name = "NoActionBar_with_SideBar"
+include ':app'

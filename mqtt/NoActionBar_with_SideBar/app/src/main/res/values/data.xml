@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="liveItemWidth">220dp</dimen>
+    <dimen name="liveItemHeight">151dp</dimen>
+    <dimen name="liveItemMargin">10dp</dimen>
+
+    <dimen name="logItemHeight">43dp</dimen>
+    <dimen name="logItemMargin">2dp</dimen>
+
+    <dimen name="margin20dp">20dp</dimen>
+    <dimen name="margin40dp">40dp</dimen>
+</resources>
